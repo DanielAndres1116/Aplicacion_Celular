@@ -27,3 +27,4 @@ Algunos de los gráficos de importancia que tenemos aquí son los histogramas de
 
 Con ello, la empresa ya tendría una gran idea de cuáles son aquellos usuarios en los que podrían enfocarse más para atraer su atención de una u otra manera y analizar nuevas maneras de llamar la atención de aquellos que es más probable que no compren la app. Un modelo de Machine Learning alimentado con los datos correctos resulta útil para mejorar los procesos de una empresa como esta. 
 
+Nota: Este programa está sujeto a mejoras, como el empleo de más modelos de machine learning y el análisis de más métricas de evaluación.
