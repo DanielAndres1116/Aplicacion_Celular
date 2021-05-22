@@ -1,6 +1,8 @@
 # Aplicacion_Celular
 ## Predicción de los clientes que comprarán una aplicación celular 
 
+![image](https://user-images.githubusercontent.com/43154438/119209144-b7ed1600-ba6a-11eb-958c-4484f9763311.png)
+
 ### Descripción del Dataset y cómo se obtuvo
 Se hace uso de los datos de una empresa que cuenta con una aplicación celular, de donde se pueden obtener sus servicios. 
 La base de datos cuenta con dos archivos, en el primero se encuentra la información de los usuarios que han accedido a la aplicación, se tiene información del día y la hora de la instalación de la App, así como el comportamiento que han tenido dentro de la aplicación, qué páginas han visitado. Los datos recolectados son solamente de las primeras 24 horas, una vez que se haya instalado la aplicación, esto se debe a que la empresa proporciona un acceso completo a todas sus opciones, aún las que son pagas en las primeras 24 horas una vez se instala la aplicación, pasado este tiempo se bloquea este acceso, a menos que el cliente se suscriba a la versión paga.
