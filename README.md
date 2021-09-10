@@ -1,5 +1,5 @@
 # Aplicacion_Celular
-## Predicción de los clientes que comprarán una aplicación celular 
+## Estimación de los clientes que comprarán una aplicación celular 
 
 ![image](https://user-images.githubusercontent.com/43154438/119209144-b7ed1600-ba6a-11eb-958c-4484f9763311.png)
 
