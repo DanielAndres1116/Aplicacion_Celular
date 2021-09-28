@@ -12,7 +12,9 @@ El segundo archivo cuenta con los nombres de las páginas más visitadas y sobre
 
 ### Objetivos
 Muchas empresas ofrecen sus servicios a través de aplicaciones móviles. En ocasiones algunos servicios son gratuitos, con la intención de que los usuarios puedan ver lo que ofrece la empresa para posteriormente comprar la membresía paga de la misma, por lo tanto, con este proyecto, se quiso predecir cuál usuario es capaz de comprar una suscripción paga de acuerdo con el comportamiento de visitas que tiene en la aplicación móvil.
+
 En medio del proceso se unieron los datos importantes de ambas tablas para así tener un conjunto con datos más valiosos. Se unificaron algunas variables para hacerlo menos extenso y más claro. También se emplearon diversas gráficas para entender mejor el comportamiento y tendencias de los usuarios, por ejemplo, algunos de los análisis interesantes que aquí se emplearon fueron los de mirar las horas en las que más personas se conectaban, observar las edades predominantes de los usuarios y también observar el tiempo transcurrido entre la suscripción del usuario y cuando se abrió la aplicación. 
+
 Para llevar a cabo todos estos procesos se emplearon las librerías de numpy, pandas, Matplotlib, seaborn y sklearn.
 
 Algunos de los gráficos de importancia que tenemos aquí son los histogramas de distribución de edades por cantidad de visualizaciones para saber las edades predominantes de los usuarios así como el de las horas a las que las personas más suelen ingresar a la página
