@@ -1,36 +1,34 @@
-# Aplicacion_Celular
-## Estimación de los clientes que comprarán una aplicación celular 
+# 1. App purchase prediction: will your users become customers of an app?
 
-![image](https://user-images.githubusercontent.com/43154438/119209144-b7ed1600-ba6a-11eb-958c-4484f9763311.png)
+## 1.1. Dataset Description
 
-### Descripción del Dataset y cómo se obtuvo
-Se hace uso de los datos de una empresa que cuenta con una aplicación celular, de donde se pueden obtener sus servicios. 
+For our analysis, we make use of the data from a company that operates a mobile application, where their services can be obtained. The database contains two files.
 
-La base de datos cuenta con dos archivos, en el primero se encuentra la información de los usuarios que han accedido a la aplicación, se tiene información del día y la hora de la instalación de la App, así como el comportamiento que han tenido dentro de la aplicación, qué páginas han visitado. Los datos recolectados son solamente de las primeras 24 horas, una vez que se haya instalado la aplicación, esto se debe a que la empresa proporciona un acceso completo a todas sus opciones, aún las que son pagas en las primeras 24 horas una vez se instala la aplicación, pasado este tiempo se bloquea este acceso, a menos que el cliente se suscriba a la versión paga.
+The first file, a CSV file whose name is “appdata10.csv” holds the information of the users who have accessed the application. The information includes the day and time of the installation of the App, as well as the behavior they had within the application and the pages they visited. The data collected is only from the first 24 hours after the application has been installed. This is because the company provides full access to all its options, including the paid ones, during the first 24 hours of installation. After this time, access to these options is blocked unless the customer subscribes to the paid version.
 
-El segundo archivo cuenta con los nombres de las páginas más visitadas y sobre todo las que nos interesa para nuestro análisis. 
+This first CSV database (appdata10.csv) contains the following features:
 
-### Objetivos
-Muchas empresas ofrecen sus servicios a través de aplicaciones móviles. En ocasiones algunos servicios son gratuitos, con la intención de que los usuarios puedan ver lo que ofrece la empresa para posteriormente comprar la membresía paga de la misma, por lo tanto, con este proyecto, se quiso predecir cuál usuario es capaz de comprar una suscripción paga de acuerdo con el comportamiento de visitas que tiene en la aplicación móvil.
+1.	user: a unique identifier for each user
 
-En medio del proceso se unieron los datos importantes de ambas tablas para así tener un conjunto con datos más valiosos. Se unificaron algunas variables para hacerlo menos extenso y más claro. También se emplearon diversas gráficas para entender mejor el comportamiento y tendencias de los usuarios, por ejemplo, algunos de los análisis interesantes que aquí se emplearon fueron los de mirar las horas en las que más personas se conectaban, observar las edades predominantes de los usuarios y también observar el tiempo transcurrido entre la suscripción del usuario y cuando se abrió la aplicación. 
+2.	first_open: the date and time of the user’s first app open
 
-Para llevar a cabo todos estos procesos se emplearon las librerías de numpy, pandas, Matplotlib, seaborn y sklearn.
+3.	dayofweek: the day of the week the user opened the app for the first time
 
-Algunos de los gráficos de importancia que tenemos aquí son los histogramas de distribución de edades por cantidad de visualizaciones para saber las edades predominantes de los usuarios así como el de las horas a las que las personas más suelen ingresar a la página
+4.	hour: the hour of the day the user opened the app for the first time
 
-![image](https://user-images.githubusercontent.com/43154438/118187587-c4d38f00-b404-11eb-837c-1cbfe0f1d5d5.png)
+5.	age: the user’s age
 
-![image](https://user-images.githubusercontent.com/43154438/118187597-c7ce7f80-b404-11eb-91ed-0f785950c256.png)
+6.	screen_list: a comma-separated list of screens that the user visited
 
-![image](https://user-images.githubusercontent.com/43154438/118187610-cbfa9d00-b404-11eb-823b-98c9bbc39941.png)
+7.	numscreens: the number of screens visited by the user
 
+8.	minigame: whether the user played a minigame (0 for no, 1 for yes)
 
-### Conclusiones y resultados obtenidos
-##### Al final se aplicó un modelo de regresión logística para realizar la predicción y el resultado obtenido fue el siguiente:
+9.	used_premium_feature: whether the user used a premium feature (0 for no, 1 for yes)
 
-![image](https://user-images.githubusercontent.com/43154438/118187655-d74dc880-b404-11eb-8b48-95bf197c1677.png)
+10.	enrolled: whether the user enrolled in a program (0 for no, 1 for yes)
 
-Con ello, la empresa ya tendría una gran idea de cuáles son aquellos usuarios en los que podrían enfocarse más para atraer su atención de una u otra manera y analizar nuevas maneras de llamar la atención de aquellos que es más probable que no compren la app. Un modelo de Machine Learning alimentado con los datos correctos resulta útil para mejorar los procesos de una empresa como esta. 
+11.	enrolled_date: the date and time the user enrolled in a program (if applicable)
 
-Nota: Este programa está sujeto a mejoras, como el empleo de más modelos de machine learning y el análisis de más métricas de evaluación.
+12.	liked: whether the user liked the app (0 for no, 1 for yes)
+
