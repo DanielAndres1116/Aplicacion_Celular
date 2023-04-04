@@ -31,19 +31,19 @@ During the process, important data from both tables was combined to create a mor
 
 Next, we will use a set of histograms that will allow us to visualize interesting aspects of the data to better understand the behavior of users. A histogram is a graphical representation of data that shows the frequency distribution of a set of continuous or discrete data. It is a bar graph that groups data into different ranges, or bins, and displays the number of data points in each bin. The height of each bar represents the frequency of data points within that bin.
 
-![image](https://user-images.githubusercontent.com/43154438/229923369-9954d7ef-d6a5-4d30-a6bd-0a05b454a9d4.png)
+![image](https://user-images.githubusercontent.com/43154438/229924678-2b1de3dc-c56f-4a63-8b9f-f0f201bc6ee2.png)
 
 Figure 1: histogram of the number of views according to the ages of the users
 
 We can note that the users whose ages vary from 22 years old and 28 years old are those who see a greater number of times the screens of the services provided by the company. But there are an interesting range of ages between 20 and 38 where the users check an important number of times those screens. This can be useful to steer the company’s campaign efforts to people of these ages.
 
-![image](https://user-images.githubusercontent.com/43154438/229923487-3c04f60d-1c91-4532-8b34-57c25f67ea24.png)
+![image](https://user-images.githubusercontent.com/43154438/229924715-a10afc3f-90fb-4e2f-bfcb-f8d360ca1581.png)
 
 Figure 2: histogram representing the hours of the day (X-axis) and the average amount of time users use the company’s online platform (Y-axis)
 
 We can see that the hours (twenty-four hours format) where there is more engagement by the users are: 0 to 2 (12 a.m to 2 a.m in twelve hours format) and 15 to 23 (3 p.m to 11 p.m in twelve hours format). It gives us an idea about the right hours range where company should aim the campaign marketing efforts.
 
-![image](https://user-images.githubusercontent.com/43154438/229923575-01ec6060-e96e-4f5b-bf41-bba408ce4d28.png)
+![image](https://user-images.githubusercontent.com/43154438/229924750-2a1f88e7-9bcb-4d0a-aecd-094c83e6af5b.png)
 
 Figure 3: histogram representing the time elapsed between the last time users open the free version of the app and subscribe to the paid version
 
